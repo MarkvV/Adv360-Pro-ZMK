@@ -2,7 +2,7 @@ macro_ide_find_in_pro: macro_ide_find_in_pro{
 compatible = "zmk,behavior-macro";
 label = "macro_ide_find_in_pro";
 #binding-cells = <0>;
-bindings = <&kp LA(LS(N1))>;
+bindings = <&kp LS(LA(N1))>;
 };
 macro_ide_usages: macro_ide_usages{
 compatible = "zmk,behavior-macro";
